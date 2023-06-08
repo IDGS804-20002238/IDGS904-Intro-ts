@@ -4,9 +4,11 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
 //importar carpetas y archivos
-import './intro-ts/01-tipos-bas.ts'
-import './intro-ts/02-objetos-interFace_arre.ts'
-import './intro-ts/03-funciones.ts'
+// import './intro-ts/01-tipos-bas.ts'
+// import './intro-ts/02-objetos-interFace_arre.ts'
+// import './intro-ts/03-funciones.ts'
+import './intro-ts/04-desestructura-objeto.ts'
+
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -28,4 +30,3 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
 
-console.log("hola mundo")

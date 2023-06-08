@@ -36,3 +36,19 @@ const nuevaMascota:Mascotas={
         }
 }
 datosMascota(nuevaMascota,4)
+
+let funcSuma = function(n1:number,n2:number):number{
+    return n1+n2
+}
+
+console.log("Funcion anonima",funcSuma(4,3));
+
+function sumar3(...valores:number[]){
+    let suma=0
+    for(let x=0; x<valores.length; x++)
+        suma+=valores[x];
+    return suma
+}
+
+console.log("sumar 3",sumar3(10,2,3,4))
+console.log("sumar 3.1",sumar3(1,2))
